@@ -1,6 +1,3 @@
-2026/01/28-17:31:11.336 1b00 Reusing MANIFEST C:\Users\nazar\OneDrive\Documents\Unreal Projects\MyProject\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/01/28-17:31:11.345 1b00 Recovering log #20
-2026/01/28-17:31:11.349 1b00 Reusing old log C:\Users\nazar\OneDrive\Documents\Unreal Projects\MyProject\Saved\webcache_6613\Default\Local Storage\leveldb/000020.log 
-2026/01/28-17:51:13.909 8e40 Level-0 table #23: started
-2026/01/28-17:51:13.916 8e40 Level-0 table #23: 80072 bytes OK
-2026/01/28-17:51:13.919 8e40 Delete type=0 #20
+2026/01/29-19:31:02.820 7098 Reusing MANIFEST C:\Users\nazar\OneDrive\Documents\GitHub\change\MyProject\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/01/29-19:31:02.835 7098 Recovering log #26
+2026/01/29-19:31:02.845 7098 Reusing old log C:\Users\nazar\OneDrive\Documents\GitHub\change\MyProject\Saved\webcache_6613\Default\Local Storage\leveldb/000026.log 

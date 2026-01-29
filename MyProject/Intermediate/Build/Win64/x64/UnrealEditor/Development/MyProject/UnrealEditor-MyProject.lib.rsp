@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MyProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.obj"
+"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.gen.cpp.obj"
+"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Gravity_Cube.cpp.obj"
+"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProject.cpp.obj"
+"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/PerModuleInline.gen.cpp.obj"
+"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Default.rc2.res"
+/OUT:"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/UnrealEditor-MyProject.lib"
