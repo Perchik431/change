@@ -1,0 +1,13 @@
+[10208:5844:0130/192057.192:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[10208:3976:0130/192057.604:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[10208:5844:0130/192057.762:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[10208:5844:0130/192114.922:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[13724:19240:0130/192129.912:ERROR:frame_impl.cc(537)] frame 5-5D8C5E2E97653995AD42B4028241B5B6 connection timeout
+[13724:19240:0130/192140.938:ERROR:frame_impl.cc(537)] frame 5-5D8C5E2E97653995AD42B4028241B5B6 connection timeout
+[20908:20264:0130/192143.923:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[10208:5844:0130/192144.639:ERROR:device_event_log_impl.cc(196)] [19:21:44.375] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[20908:20264:0130/192156.362:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[20908:20264:0130/192207.742:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
+[10208:5844:0130/192256.356:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0
+[10208:5844:0130/192659.901:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0
+[10208:5844:0130/192705.591:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0

@@ -1,12 +1,12 @@
-"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Source/MyProject/Gravity_Cube.cpp"
-@"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProject.Shared.rsp"
-/FI"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h"
-/FI"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Definitions.MyProject.h"
-/Yu"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h"
-/Fp"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.pch"
-/Fo"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Gravity_Cube.cpp.obj"
-/experimental:log "C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Gravity_Cube.cpp.sarif"
-/sourceDependencies "C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Gravity_Cube.cpp.dep.json"
+"C:/Game_Jam/change-main/MyProject/Source/MyProject/Gravity_Cube.cpp"
+@"C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProject.Shared.rsp"
+/FI"C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h"
+/FI"C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Definitions.MyProject.h"
+/Yu"C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h"
+/Fp"C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.pch"
+/Fo"C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Gravity_Cube.cpp.obj"
+/experimental:log "C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Gravity_Cube.cpp.sarif"
+/sourceDependencies "C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Gravity_Cube.cpp.dep.json"
 /nologo
 /Oi
 /FC

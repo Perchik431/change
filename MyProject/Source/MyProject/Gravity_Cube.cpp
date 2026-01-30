@@ -1,96 +1,51 @@
-#include "Gravity_Cube.h"
-#include "Engine/Engine.h"
-#include "GameFramework/PlayerController.h"
+Ôªø#include "Gravity_Cube.h"
 #include "Components/StaticMeshComponent.h"
+#include "Engine/Engine.h"
 
 AGravity_Cube::AGravity_Cube()
 {
-    PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = true;
 
-    // Mesh
-    CubeMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CubeMesh"));
-    RootComponent = CubeMesh;
+	CubeMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CubeMesh"));
+	RootComponent = CubeMesh;
 
-    // ‘ËÁËÍ‡ ¬ À (‚‡ÊÌÓ)
-    CubeMesh->SetSimulatePhysics(false);
-    CubeMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-    CubeMesh->SetCollisionProfileName(TEXT("BlockAll"));
-
-    UE_LOG(LogTemp, Warning, TEXT("Gravity Cube CONSTRUCTOR"));
+	CubeMesh->SetSimulatePhysics(false);
+	CubeMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	CubeMesh->SetCollisionResponseToAllChannels(ECR_Block);
 }
 
 void AGravity_Cube::BeginPlay()
 {
-    Super::BeginPlay();
+	Super::BeginPlay();
+	EnableInput(GetWorld()->GetFirstPlayerController());
 
-    UE_LOG(LogTemp, Warning, TEXT("Gravity Cube BEGIN PLAY"));
+	InputComponent->BindKey(EKeys::G, IE_Pressed, this, &AGravity_Cube::ToggleMove);
 
-    if (GEngine)
-    {
-        GEngine->AddOnScreenDebugMessage(
-            -1,
-            3.f,
-            FColor::Yellow,
-            TEXT("Gravity Cube Ready")
-        );
-    }
+	if (GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Green, TEXT("Gravity_Cube READY"));
+}
 
-    // ¬ Àﬁ◊¿≈Ã INPUT
-    if (APlayerController* PC = GetWorld()->GetFirstPlayerController())
-    {
-        EnableInput(PC);
+void AGravity_Cube::ToggleMove()
+{
+	if (MoveState == EGravityMoveState::Frozen)
+		MoveState = EGravityMoveState::Up;
+	else if (MoveState == EGravityMoveState::Up)
+		MoveState = EGravityMoveState::Down;
+	else
+		MoveState = EGravityMoveState::Frozen;
 
-        InputComponent->BindKey(
-            EKeys::G,
-            EInputEvent::IE_Pressed,
-            this,
-            &AGravity_Cube::ToggleGravity
-        );
-
-        UE_LOG(LogTemp, Warning, TEXT("INPUT ENABLED (Key G)"));
-    }
+	if (GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Yellow, TEXT("Gravity Cube TOGGLED"));
 }
 
 void AGravity_Cube::Tick(float DeltaTime)
 {
-    Super::Tick(DeltaTime);
+	Super::Tick(DeltaTime);
 
-    FVector Location = GetActorLocation();
+	if (MoveState == EGravityMoveState::Frozen) return;
 
-    float Direction = bMoveUp ? 1.f : -1.f;
-    Location.Z += Direction * MoveSpeed * DeltaTime;
+	FVector Offset = FVector::ZeroVector;
+	Offset.Z = (MoveState == EGravityMoveState::Up ? 1 : -1) * MoveSpeed * DeltaTime;
 
-    SetActorLocation(Location, true);
-
-    if (GEngine)
-    {
-        GEngine->AddOnScreenDebugMessage(
-            1,
-            0.f,
-            bMoveUp ? FColor::Green : FColor::Red,
-            bMoveUp ? TEXT("MOVING UP") : TEXT("MOVING DOWN")
-        );
-    }
-}
-
-void AGravity_Cube::ToggleGravity()
-{
-    bMoveUp = !bMoveUp;
-
-    UE_LOG(
-        LogTemp,
-        Warning,
-        TEXT("GRAVITY TOGGLED: %s"),
-        bMoveUp ? TEXT("UP") : TEXT("DOWN")
-    );
-
-    if (GEngine)
-    {
-        GEngine->AddOnScreenDebugMessage(
-            -1,
-            2.f,
-            FColor::Cyan,
-            bMoveUp ? TEXT("Gravity UP") : TEXT("Gravity DOWN")
-        );
-    }
+	AddActorWorldOffset(Offset, true); // üî• –í–ê–ñ–ù–û: true = sweep
 }

@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_AGravity_Cube_Statics;
 MYPROJECT_API UClass* Z_Construct_UClass_AGravity_Cube_NoRegister();
 
-#define FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGravity_Cube(); \
 	friend struct ::Z_Construct_UClass_AGravity_Cube_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(AGravity_Cube)
 
 
-#define FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h_18_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AGravity_Cube(AGravity_Cube&&) = delete; \
 	AGravity_Cube(const AGravity_Cube&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~AGravity_Cube();
 
 
-#define FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h_7_PROLOG
-#define FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h_10_GENERATED_BODY \
+#define FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h_15_PROLOG
+#define FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h_10_INCLASS_NO_PURE_DECLS \
-	FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h_10_ENHANCED_CONSTRUCTORS \
+	FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h_18_INCLASS_NO_PURE_DECLS \
+	FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,17 @@ class AGravity_Cube;
 // ********** End Class AGravity_Cube **************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h
+#define CURRENT_FILE_ID FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h
+
+// ********** Begin Enum EGravityMoveState *********************************************************
+#define FOREACH_ENUM_EGRAVITYMOVESTATE(op) \
+	op(EGravityMoveState::Up) \
+	op(EGravityMoveState::Down) \
+	op(EGravityMoveState::Frozen) 
+
+enum class EGravityMoveState : uint8;
+template<> struct TIsUEnumClass<EGravityMoveState> { enum { Value = true }; };
+template<> MYPROJECT_NON_ATTRIBUTED_API UEnum* StaticEnum<EGravityMoveState>();
+// ********** End Enum EGravityMoveState ***********************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

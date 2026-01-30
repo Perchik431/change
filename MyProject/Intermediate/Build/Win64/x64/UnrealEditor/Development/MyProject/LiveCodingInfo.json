@@ -2,8 +2,19 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MyProject.gen.cpp.obj": [
+			"BP_TriggerZoneMulti.gen.cpp.obj",
+			"Dead_Zone_Actor.gen.cpp.obj",
+			"DoorL_Actor.gen.cpp.obj",
+			"Door_ActorF.gen.cpp.obj",
+			"Door_Multi.gen.cpp.obj",
+			"Forvard_Gravity.gen.cpp.obj",
 			"Gravity_Cube.gen.cpp.obj",
-			"MyProject.init.gen.cpp.obj"
+			"Lift_Gravity.gen.cpp.obj",
+			"MyProject.init.gen.cpp.obj",
+			"TriggerZoneF.gen.cpp.obj",
+			"TriggerZoneL.gen.cpp.obj",
+			"TriggerZoneMulti.gen.cpp.obj",
+			"Y_GravityCube.gen.cpp.obj"
 		]
 	}
 }

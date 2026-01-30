@@ -1,0 +1,10 @@
+[3004:7296:0130/201711.987:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[3004:3868:0130/201712.438:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[3004:7296:0130/201712.593:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[3004:7296:0130/201729.338:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[18044:18632:0130/201749.947:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[4668:15696:0130/201804.090:ERROR:frame_impl.cc(537)] frame 6-A87E87356C30FFE45B6F4753C74B049D connection timeout
+[7080:15356:0130/201807.798:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-1AE63B284282DFF59F1653F73E9BD8E0 will be ignored
+[3004:7296:0130/201809.852:ERROR:device_event_log_impl.cc(196)] [20:18:09.767] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[18044:18632:0130/201810.020:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[18044:18632:0130/201822.302:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100

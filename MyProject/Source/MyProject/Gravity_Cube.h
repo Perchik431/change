@@ -4,6 +4,14 @@
 #include "GameFramework/Actor.h"
 #include "Gravity_Cube.generated.h"
 
+UENUM()
+enum class EGravityMoveState : uint8
+{
+	Up,
+	Down,
+	Frozen
+};
+
 UCLASS()
 class MYPROJECT_API AGravity_Cube : public AActor
 {
@@ -19,16 +27,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	// ===== COMPONENTS =====
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* CubeMesh;
 
-	// ===== MOVEMENT =====
-	UPROPERTY(EditAnywhere, Category = "Gravity")
-	float MoveSpeed = 200.f;
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float MoveSpeed = 300.f;
 
-	bool bMoveUp = false;
+	EGravityMoveState MoveState = EGravityMoveState::Frozen;
 
-	// ===== INPUT =====
-	void ToggleGravity();
+	void ToggleMove();
 };

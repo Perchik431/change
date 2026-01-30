@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\game_jam\\change-main\\myproject\\source\\myproject\\bp_triggerzonemulti.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\game_jam\\change-main\\myproject\\source\\myproject\\bp_triggerzonemulti.h",
+            "c:\\game_jam\\change-main\\myproject\\source\\myproject\\triggerzonemulti.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\engine\\triggerbox.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\engine\\triggerbase.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\triggerbase.generated.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\triggerbox.generated.h",
+            "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\triggerzonemulti.generated.h",
+            "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\bp_triggerzonemulti.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

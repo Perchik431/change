@@ -90,5 +90,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="First Person BP Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=MyProject
-/fo "C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Default.rc2.res"
+/fo "C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Default.rc2.res"
 "../Build/Windows/Resources/Default.rc2"

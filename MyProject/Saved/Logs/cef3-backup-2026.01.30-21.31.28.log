@@ -1,0 +1,10 @@
+[10944:19180:0130/212932.132:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[10944:4800:0130/212932.582:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[10944:19180:0130/212932.760:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[10944:19180:0130/213049.337:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[10944:19180:0130/213053.118:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[10944:19180:0130/213101.451:ERROR:device_event_log_impl.cc(196)] [21:31:01.246] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[19272:20676:0130/213104.656:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[19272:20676:0130/213104.746:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
+[19272:20676:0130/213114.395:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
+[19272:20676:0130/213128.135:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100

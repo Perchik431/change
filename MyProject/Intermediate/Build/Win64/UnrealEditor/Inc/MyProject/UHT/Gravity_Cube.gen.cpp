@@ -16,8 +16,62 @@ ENGINE_API UClass* Z_Construct_UClass_AActor();
 ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 MYPROJECT_API UClass* Z_Construct_UClass_AGravity_Cube();
 MYPROJECT_API UClass* Z_Construct_UClass_AGravity_Cube_NoRegister();
+MYPROJECT_API UEnum* Z_Construct_UEnum_MyProject_EGravityMoveState();
 UPackage* Z_Construct_UPackage__Script_MyProject();
 // ********** End Cross Module References **********************************************************
+
+// ********** Begin Enum EGravityMoveState *********************************************************
+static FEnumRegistrationInfo Z_Registration_Info_UEnum_EGravityMoveState;
+static UEnum* EGravityMoveState_StaticEnum()
+{
+	if (!Z_Registration_Info_UEnum_EGravityMoveState.OuterSingleton)
+	{
+		Z_Registration_Info_UEnum_EGravityMoveState.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_MyProject_EGravityMoveState, (UObject*)Z_Construct_UPackage__Script_MyProject(), TEXT("EGravityMoveState"));
+	}
+	return Z_Registration_Info_UEnum_EGravityMoveState.OuterSingleton;
+}
+template<> MYPROJECT_NON_ATTRIBUTED_API UEnum* StaticEnum<EGravityMoveState>()
+{
+	return EGravityMoveState_StaticEnum();
+}
+struct Z_Construct_UEnum_MyProject_EGravityMoveState_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+		{ "Down.Name", "EGravityMoveState::Down" },
+		{ "Frozen.Name", "EGravityMoveState::Frozen" },
+		{ "ModuleRelativePath", "Gravity_Cube.h" },
+		{ "Up.Name", "EGravityMoveState::Up" },
+	};
+#endif // WITH_METADATA
+	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
+		{ "EGravityMoveState::Up", (int64)EGravityMoveState::Up },
+		{ "EGravityMoveState::Down", (int64)EGravityMoveState::Down },
+		{ "EGravityMoveState::Frozen", (int64)EGravityMoveState::Frozen },
+	};
+	static const UECodeGen_Private::FEnumParams EnumParams;
+}; // struct Z_Construct_UEnum_MyProject_EGravityMoveState_Statics 
+const UECodeGen_Private::FEnumParams Z_Construct_UEnum_MyProject_EGravityMoveState_Statics::EnumParams = {
+	(UObject*(*)())Z_Construct_UPackage__Script_MyProject,
+	nullptr,
+	"EGravityMoveState",
+	"EGravityMoveState",
+	Z_Construct_UEnum_MyProject_EGravityMoveState_Statics::Enumerators,
+	RF_Public|RF_Transient|RF_MarkAsNative,
+	UE_ARRAY_COUNT(Z_Construct_UEnum_MyProject_EGravityMoveState_Statics::Enumerators),
+	EEnumFlags::None,
+	(uint8)UEnum::ECppForm::EnumClass,
+	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_MyProject_EGravityMoveState_Statics::Enum_MetaDataParams), Z_Construct_UEnum_MyProject_EGravityMoveState_Statics::Enum_MetaDataParams)
+};
+UEnum* Z_Construct_UEnum_MyProject_EGravityMoveState()
+{
+	if (!Z_Registration_Info_UEnum_EGravityMoveState.InnerSingleton)
+	{
+		UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EGravityMoveState.InnerSingleton, Z_Construct_UEnum_MyProject_EGravityMoveState_Statics::EnumParams);
+	}
+	return Z_Registration_Info_UEnum_EGravityMoveState.InnerSingleton;
+}
+// ********** End Enum EGravityMoveState ***********************************************************
 
 // ********** Begin Class AGravity_Cube ************************************************************
 FClassRegistrationInfo Z_Registration_Info_UClass_AGravity_Cube;
@@ -58,24 +112,12 @@ struct Z_Construct_UClass_AGravity_Cube_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CubeMesh_MetaData[] = {
 		{ "Category", "Gravity_Cube" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// ===== COMPONENTS =====\n" },
-#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Gravity_Cube.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "===== COMPONENTS =====" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MoveSpeed_MetaData[] = {
-		{ "Category", "Gravity" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// ===== MOVEMENT =====\n" },
-#endif
+		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "Gravity_Cube.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "===== MOVEMENT =====" },
-#endif
 	};
 #endif // WITH_METADATA
 
@@ -136,17 +178,20 @@ AGravity_Cube::~AGravity_Cube() {}
 // ********** End Class AGravity_Cube **************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics
+struct Z_CompiledInDeferFile_FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics
 {
-	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AGravity_Cube, AGravity_Cube::StaticClass, TEXT("AGravity_Cube"), &Z_Registration_Info_UClass_AGravity_Cube, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGravity_Cube), 682387484U) },
+	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
+		{ EGravityMoveState_StaticEnum, TEXT("EGravityMoveState"), &Z_Registration_Info_UEnum_EGravityMoveState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1535832006U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_2273520601{
+	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
+		{ Z_Construct_UClass_AGravity_Cube, AGravity_Cube::StaticClass, TEXT("AGravity_Cube"), &Z_Registration_Info_UClass_AGravity_Cube, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGravity_Cube), 1370082310U) },
+	};
+}; // Z_CompiledInDeferFile_FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_174418245{
 	TEXT("/Script/MyProject"),
-	Z_CompiledInDeferFile_FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_nazar_OneDrive_Documents_GitHub_change_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics::ClassInfo),
 	nullptr, 0,
-	nullptr, 0,
+	Z_CompiledInDeferFile_FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Game_Jam_change_main_MyProject_Source_MyProject_Gravity_Cube_h__Script_MyProject_Statics::EnumInfo),
 };
 // ********** End Registration *********************************************************************
 

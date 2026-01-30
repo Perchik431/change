@@ -1,0 +1,11 @@
+[14572:21480:0130/204410.105:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[14572:20236:0130/204410.502:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[14572:21480:0130/204410.681:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[14572:21480:0130/204423.662:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[14572:21480:0130/204435.753:ERROR:device_event_log_impl.cc(196)] [20:44:35.694] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[3848:17832:0130/204436.031:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-1F1EAD006F27DC3A13CAC19F522F8186 will be ignored
+[15664:3824:0130/204438.444:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
+[15664:3824:0130/204438.600:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[15664:3824:0130/204502.696:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[14572:21480:0130/204750.398:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0
+[14572:21480:0130/205510.324:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

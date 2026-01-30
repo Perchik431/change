@@ -1,5 +1,0 @@
-[1732:30932:0127/203133.002:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[1732:31300:0127/203133.192:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[1732:30932:0127/203133.277:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[1732:30932:0127/203152.889:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
-[1732:30932:0127/203253.077:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

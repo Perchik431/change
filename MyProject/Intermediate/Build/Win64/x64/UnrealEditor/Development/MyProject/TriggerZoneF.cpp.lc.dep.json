@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\game_jam\\change-main\\myproject\\source\\myproject\\triggerzonef.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\game_jam\\change-main\\myproject\\source\\myproject\\triggerzonef.h",
+            "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\triggerzonef.generated.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "c:\\game_jam\\change-main\\myproject\\source\\myproject\\door_actorf.h",
+            "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\door_actorf.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

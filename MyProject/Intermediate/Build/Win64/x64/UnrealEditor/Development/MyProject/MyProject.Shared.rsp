@@ -283,9 +283,9 @@
 /I "Editor/SceneDepthPickerMode/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/AnimationEditMode/UHT"
 /I "Editor/AnimationEditMode/Public"
-/I "C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/UnrealEditor/Inc/MyProject/UHT"
-/I "C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Source"
-/I "C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd"
+/I "C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/UnrealEditor/Inc/MyProject/UHT"
+/I "C:/Game_Jam/change-main/MyProject/Source"
+/I "C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd"
 /external:W0
 /external:I "ThirdParty/GuidelinesSupportLibrary/GSL-1144/include"
 /external:I "ThirdParty/AtomicQueue"

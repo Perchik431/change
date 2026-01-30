@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\nazar\\onedrive\\documents\\github\\change\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\permoduleinline.gen.cpp",
+        "Source": "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\permoduleinline.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\nazar\\onedrive\\documents\\github\\change\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_4.h.pch",
+        "PCH": "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_4.h.pch",
         "Includes": [
-            "c:\\users\\nazar\\onedrive\\documents\\github\\change\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
             "c:\\program files\\epic games\\ue_5.7\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
         ],
         "ImportedModules": [],

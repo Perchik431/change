@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\game_jam\\change-main\\myproject\\source\\myproject\\lift_gravity.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\game_jam\\change-main\\myproject\\source\\myproject\\lift_gravity.h",
+            "c:\\game_jam\\change-main\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\lift_gravity.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

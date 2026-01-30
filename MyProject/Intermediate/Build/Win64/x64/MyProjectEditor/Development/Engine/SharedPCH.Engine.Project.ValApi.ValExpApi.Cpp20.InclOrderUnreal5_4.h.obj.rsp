@@ -1,4 +1,4 @@
-"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.cpp"
+"C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.cpp"
 /I "."
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/Engine/UHT"
 /I "Runtime/Engine/Classes"
@@ -318,10 +318,10 @@
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/um"
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/winrt"
 /Yc"SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h"
-/Fp"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.pch"
-/Fo"C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.obj"
-/experimental:log "C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.sarif"
-/sourceDependencies "C:/Users/nazar/OneDrive/Documents/GitHub/change/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.dep.json"
+/Fp"C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.pch"
+/Fo"C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.obj"
+/experimental:log "C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.sarif"
+/sourceDependencies "C:/Game_Jam/change-main/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.dep.json"
 /nologo
 /Oi
 /FC
